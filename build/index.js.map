@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../src/",
+  "sources": [
+    "index.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;EAAA;EAEA,MAAM,CAAC,OAAP,GAAiB,QAAA,CAAC,KAAD,EAAQ,GAAR,CAAA;WACf,QAAA,CAAS,CAAC,IAAI,IAAJ,CAAA,CAAU,CAAC,OAAX,CAAA,CAAA,GAAuB,IAAI,IAAJ,CAAS,IAAT,EAAc,CAAd,EAAgB,CAAhB,CAAkB,CAAC,OAAnB,CAAA,CAAxB,CAAqD,CAAC,QAAtD,CAAA,CAAgE,CAAC,MAAjE,CAAwE,IAAI,CAAC,KAAL,CAAW,IAAI,CAAC,MAAL,CAAA,CAAA,GAAgB,CAAC,IAAA,IAAQ,GAAT,CAA3B,CAAxE,CAAkH,CAAC,KAAnH,CAAyH,EAAzH,CAA4H,CAAC,OAA7H,CAAA,CAAsI,CAAC,IAAvI,CAA4I,EAA5I,CAAT,CAAyJ,CAAC,QAA1J,CAAmK,KAAA,IAAS,EAA5K;EADe;AAFjB",
+  "sourcesContent": [
+    "'use strict'\r\n\r\nmodule.exports = (radix, rnd) ->\r\n  parseInt((new Date().valueOf() - new Date(2019,0,1).valueOf()).toString().concat(Math.floor(Math.random() * (9999 or rnd))).split('').reverse().join('')).toString(radix or 36)"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "test.js",
+  "sourceRoot": "../../src/test/",
+  "sources": [
+    "test.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;EAAA;AAAA,MAAA;;EAEA,IAAA,GAAO,OAAA,CAAQ,UAAR;;EAEP,OAAO,CAAC,GAAR,CAAY,IAAA,CAAA,CAAZ;;EACA,OAAO,CAAC,GAAR,CAAY,IAAA,CAAK,IAAL,EAAW,UAAX,CAAZ;;EACA,OAAO,CAAC,GAAR,CAAY,IAAA,CAAK,EAAL,CAAZ;AANA",
+  "sourcesContent": [
+    "'use strict'\r\n\r\nogid = require '../index'\r\n\r\nconsole.log ogid()\r\nconsole.log ogid(null, 9999999999)\r\nconsole.log ogid(16)"
+  ]
+}
