@@ -1,12 +1,11 @@
 {
   "name": "ogid",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ndx-framework web app",
   "main": "build/index.js",
   "scripts": {
     "test": "node build/test/test.js"
   },
-  "ndx": true,
   "loadOrder": 5,
   "repository": {
     "type": "git",
